@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Gulp - Browser-Sync</title>
+
+    <!-- Metatags -->
+    <meta name="robots" content="All">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Links -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+    <h1>Browser-Sync</h1>
+    <h3>Opdater og reload flere browsere på både mobile enheder og computere, mens du udvikler hjemmesider.</h3>
+    <p>Browser-Sync optimerer arbejdsflow ved at eliminere at man selv skal skifte vindue og reload sin browser, ved samtidig at lave en local server som hjemmesiden eksisterer på. En anden bonus ved at bruge det er at hvis du har andre enheder der er på samme netværk kan disse også se hjemmesiden man udvikler.</p>
+    <p>Det gør den ved at holde øje med html, css og script filer som har en direkte effekt på hvordan hjemmesiden ser ud og/eller opfører sig.</p>
+    <video autoplay muted loop src="videos/demo.mov" id="demo"></video>
+
+    <!-- Dette script tag er bare for at få videon til at spille hurtigere -->
+    <script>
+        var vid = document.getElementById("demo");
+
+        function setPlaySpeed() {
+            vid.playbackRate = 2;
+        }
+
+        setPlaySpeed()
+    </script>
+
+</body>
+
+</html>
